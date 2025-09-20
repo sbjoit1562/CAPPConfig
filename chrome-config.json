@@ -1,0 +1,42 @@
+{
+  "latestVersion": "1.0.0",
+  "name": "CAPP Config",
+  "description": "Configuration settings for CAPP application",
+  "whats_new": {
+    "1.0.0": {
+      "version": "1.0.0",
+      "releaseDate": "2024-01-01",
+      "title": "Initial Release",
+      "description": "Welcome to CAPP Config! This is our first release.",
+      "features": [
+        "Initial configuration setup",
+        "Basic settings management",
+        "Core functionality implementation"
+      ],
+      "improvements": [
+        "Stable foundation for future updates"
+      ],
+      "cta_text": "View Full Release Notes",
+      "cta_url": "https://github.com/sbjoit1562/CAPPConfig/releases/tag/v1.0.0"
+    },
+    "0.9.0": {
+      "version": "0.9.0",
+      "releaseDate": "2023-12-15",
+      "title": "Beta Release",
+      "description": "Beta version with core features ready for testing.",
+      "features": [
+        "Beta configuration system",
+        "Initial testing framework"
+      ],
+      "improvements": [
+        "Performance optimizations",
+        "Bug fixes from alpha testing"
+      ],
+      "cta_text": "View Beta Notes",
+      "cta_url": "https://github.com/sbjoit1562/CAPPConfig/releases/tag/v0.9.0"
+    }
+  },
+  "promotional": {
+    "text": "Made by Core Team"
+  }
+}
