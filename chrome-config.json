@@ -1,29 +1,14 @@
 {
-  "latestVersion": "0.9.0",
+  "latestVersion": "1.1.0",
   "name": "CAPP Config",
   "description": "Configuration settings for CAPP application",
   "whats_new": {
-    "1.0.0": {
-      "version": "1.0.0",
-      "releaseDate": "2024-01-01",
-      "title": "Initial Release",
-      "description": "Welcome to CAPP Config! This is our first release.",
-      "features": [
-        "Initial configuration setup",
-        "Basic settings management",
-        "Core functionality implementation"
-      ],
-      "improvements": [
-        "Stable foundation for future updates"
-      ],
-      "cta_text": "Fix some UI Improvements",
-      "cta_url": "https://github.com/sbjoit1562/CAPPConfig/releases/tag/v1.0.0"
-    },
-    "1.0.1": {
+    
+    "1.1.0": {
       "version": "1.0.1",
-      "releaseDate": "2023-12-15",
-      "title": "Beta Release",
-      "description": "Beta version with core features ready for testing.",
+      "releaseDate": "2025-09-20",
+      "title": "Fixed UI Bugs",
+      "description": "Initial Release",
       "features": [
         "Beta configuration system",
         "Initial testing framework"
@@ -32,8 +17,8 @@
         "Performance optimizations",
         "Bug fixes from alpha testing"
       ],
-      "cta_text": "View Beta Notes",
-      "cta_url": "https://github.com/sbjoit1562/CAPPConfig/releases/tag/v0.9.0"
+      "cta_text": "",
+      "cta_url": "https://chromewebstore.google.com/detail/capp-collaboration-tool/lgjlanpgofmeijljglhdlegegljjnibi"
     }
   },
   "promotional": {
