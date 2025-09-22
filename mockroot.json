@@ -1,0 +1,425 @@
+{
+	"api_config": [{
+		"urls": [
+			"https://upi.paytm.com/pms/upi/ext/meta/app/v1/validate/address",
+			"https://upi.paytm.com/upi-pc-profile/ext/v1/user/details/receiver_mobile_mapper",
+			"https://upi.paytm.com/upi-pc-profile/ext/v1/user/details/receiver_vpa"],
+		"config": {
+			"connect_timeout": 2000,
+			"write_timeout": 3000,
+			"read_timeout": 3000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 1
+		}
+	}, {
+		"urls": [
+			"https://upi.paytm.com/switch/upi/ext/txn/v6/transaction/status",
+			"https://upi.paytm.com/txn/switch/upi/ext/txn/v6/transaction/status"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 4000,
+			"read_timeout": 4000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 2
+		}
+	}, {
+		"urls": [
+			"https://upi.paytm.com/pms/upi/ext/meta/app/v1/user/availability"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 5000,
+			"read_timeout": 5000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 2
+		}
+	}, {
+		"urls": [
+			"https://upi.paytm.com/pms/upi/ext/meta/app/v1/user/profile"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 3000,
+			"read_timeout": 3000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 2
+		}
+	}, {
+		"urls": [
+			"https://upi.paytm.com/pms/upi/ext/meta/app/v1/fetch/account-providers"],
+		"config": {
+			"connect_timeout": 2000,
+			"write_timeout": 15000,
+			"read_timeout": 15000,
+			"back_off_multiplier": 0,
+			"max_num_retries": 0
+		}
+	}, {
+		"urls": [
+			"https://upi.paytm.com/passbook-accounts/ext/v1/instruments",
+			"https://upi.paytm.com/passbook-accounts/ext/v2/instruments"],
+		"config": {
+			"connect_timeout": 2000,
+			"write_timeout": 3000,
+			"read_timeout": 3000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 1
+		}
+	}, {
+		"urls": [
+			"https://securegw-online.paytm.in/theia/api/v2/fetchPaymentOptions",
+			"https://securegw-online.paytm.in/theia/api/v2/fetchQRPaymentDetails"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 5000,
+			"read_timeout": 5000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 2
+		}
+	}, {
+		"urls": [
+			"https://securegw.paytm.in/theia/HANDLER_IVR/CLW_APP_PAY/APP",
+			"https://securegw-online.paytm.in/theia/HANDLER_IVR/CLW_APP_PAY/APP"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 10000,
+			"read_timeout": 10000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 0
+		}
+	}, {
+		"urls": [
+			"https://securegw.paytm.in/theia/api/v1/processTransaction",
+			"https://securegw-online.paytm.in/theia/api/v1/processTransaction"],
+		"config": {
+			"connect_timeout": 4000,
+			"write_timeout": 10000,
+			"read_timeout": 10000,
+			"back_off_multiplier": 1,
+			"max_num_retries": 0
+		}
+	}],
+	"api_config_post_api": [{
+		"urls": [
+			"https://upi.paytm.com/txn/switch/upi/ext/txn/v3/common-pay-request-async",
+			"https://upi.paytm.com/txn/switch/upi/ext/txn/lite/v2/app-pay"],
+		"config": {
+			"connect_timeout": 2000,
+			"write_timeout": 10000,
+			"read_timeout": 10000,
+			"back_off_multiplier": 0,
+			"max_num_retries": 3,
+			"retry_interval_strategy": "LINEAR",
+			"retry_interval_multiplier": 1,
+			"retry_after": 1000
+
+		}
+	}],
+	"feature_config": {
+		"suggestionsConfig": {
+			"experiments": [{
+				"experimentID": "main",
+				"targetCount": 12,
+				"queryRules": [{
+					"ruleID": "pin-chat",
+					"verticalID": "chat",
+					"source": "pinned-chats",
+					"weight": 2000,
+					"limit": 5,
+					"isPinned": true,
+					"shouldFetchLastMessage": true,
+					"customType": [
+						"p2c::self_transfer",
+						"p2c::vpa",
+						"p2bk::bank",
+						"p2p::user",
+						"p2p::merchant",
+						"p2c::vpam",
+						"p2c::store"]
+				}, {
+					"ruleID": "opted-rmd",
+					"verticalID": "discovery_reminders",
+					"source": "opted-reminder",
+					"weight": 1900,
+					"limit": 5,
+					"reminderType": 2,
+					"recurrance": [-3,
+					3],
+					"type": 1,
+					"reminderStatus": [
+						"Overdue",
+						"Upcoming",
+						"Due Today"]
+				}, {
+					"ruleID": "suggested-rmd",
+					"verticalID": "discovery_reminders",
+					"source": "suggested-reminders",
+					"weight": 1800,
+					"limit": 5,
+					"reminderType": 1,
+					"recurrance": [-3,
+					3],
+					"type": 1
+				}, {
+					"ruleID": "freq-payee-1",
+					"verticalID": "discovery_reminders",
+					"source": "frequent_payees",
+					"weight": 1750,
+					"limit": 4,
+					"type": 2,
+					"minScore": 2
+				}, {
+					"ruleID": "fav-con-3",
+					"verticalID": "coms",
+					"source": "sendmoney_contacts",
+					"weight": 1500,
+					"limit": 4,
+					"contactQuery": "[ { \"tag\": \"isfav\", \"comsExpression\": { \"And\": { \"Col_0\": 3 }, \"isFavourites\": true } } ]"
+				}, {
+					"ruleID": "has-pp-con-4",
+					"verticalID": "coms",
+					"source": "sendmoney_contacts",
+					"weight": 1300,
+					"limit": 2,
+					"contactQuery": "[ { \"tag\": \"hasprofilepic\", \"comsExpression\": { \"And\": { \"Col_0\": 3 }, \"hasProfilePic\": true } } ]"
+				}, {
+					"ruleID": "close-con-2",
+					"verticalID": "coms",
+					"source": "sendmoney_contacts",
+					"weight": 1400,
+					"limit": 6,
+					"contactQuery": "[ { \"tag\": \"keyword\", \"comsExpression\": { \"And\": { \"Col_0\": 3 }, \"keywords\": [ \"Mom\", \"Mummy\", \"Mumma\", \"Pitashri\", \"Aai\", \"Maayi\", \"Jannu\", \"Mrs\", \"Babe\", \"Baby\", \"Shona\", \"PG Owner\", \"Owner\", \"House\",\"Cook\", \"House Help\", \"maid\",\"Driver\", \"Husband\", \"Wife\" ] } } ]"
+				}, {
+					"ruleID": "st-chat",
+					"verticalID": "chat",
+					"source": "self-transfer-chat",
+					"weight": 1600,
+					"limit": 1,
+					"isPinned": null,
+					"shouldFetchLastMessage": false,
+					"customType": [
+						"p2c::self_transfer"],
+					"validOn": [
+					29,
+					30,
+					31,
+					1,
+					2,
+					3]
+				}, {
+					"ruleID": "rc-p2p",
+					"verticalID": "chat",
+					"source": "recent-p2p-chats",
+					"weight": 1550,
+					"limit": 12,
+					"isPinned": null,
+					"shouldFetchLastMessage": false,
+					"customType": [
+						"p2c::self_transfer",
+						"p2c::vpa",
+						"p2bk::bank",
+						"p2p::user",
+						"p2p::merchant"]
+				}]
+			}]
+		},
+		"offline_events": {
+			"200": [
+				"1006"],
+			"Non200": [
+				"401",
+				"403",
+				"410"]
+		},
+		"eas_config": {
+			"configBuckets": [{
+				"flow": [
+					"preload_vpa",
+					"deeplink_vpa",
+					"scan",
+					"self",
+					"ebd",
+					"intent",
+					"collect"],
+				"rolloutValue": 95,
+				"rolloutConfig1": "1",
+				"rolloutConfig2": "2"
+			}, {
+				"flow": [
+					"preload_custid",
+					"preload_mobile",
+					"preload_accref",
+					"preload_mid"],
+				"rolloutValue": 90,
+				"rolloutConfig1": "1",
+				"rolloutConfig2": "3"
+			}, {
+				"flow": [
+					"deeplink_novpa"],
+				"rolloutValue": 90,
+				"rolloutConfig1": "1",
+				"rolloutConfig2": "5"
+			}, {
+				"flow": [
+					"international"],
+				"rolloutValue": 50,
+				"rolloutConfig1": "6",
+				"rolloutConfig2": "7"
+			}],
+			"combinationApiConfig": {
+				"1": {
+					"connectTimeout": 2000,
+					"writeTimeout": 6000,
+					"readTimeout": 6000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 6000
+				},
+				"2": {
+					"connectTimeout": 2000,
+					"writeTimeout": 4000,
+					"readTimeout": 4000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 6000
+				},
+				"3": {
+					"connectTimeout": 1500,
+					"writeTimeout": 4000,
+					"readTimeout": 4000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 10000
+				},
+				"4": {
+					"connectTimeout": 2000,
+					"writeTimeout": 6000,
+					"readTimeout": 6000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 6000
+				},
+				"5": {
+					"connectTimeout": 1500,
+					"writeTimeout": 8000,
+					"readTimeout": 8000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 8000
+				},
+				"6": {
+					"connectTimeout": 2000,
+					"writeTimeout": 12000,
+					"readTimeout": 12000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 15000
+				},
+				"7": {
+					"connectTimeout": 2000,
+					"writeTimeout": 9000,
+					"readTimeout": 9000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 12000
+				},
+				"default": {
+					"connectTimeout": 2000,
+					"writeTimeout": 6000,
+					"readTimeout": 6000,
+					"backOffMultiplier": 1,
+					"retries": 2,
+					"localTimeout": 6000
+				}
+			},
+			"metaData": {
+				"maxRetries": 10,
+				"nonRetriableErrorCodes": [
+					"401",
+					"403",
+					"410",
+					"504",
+					"400",
+					"423"]
+			}
+		},
+		"max_txn_limit_config": {
+			"maxTxnLimits": [{
+				"maxLimit": 500000,
+				"list": [{
+					"mcc": "6211",
+					"purpose": "1"
+				}, {
+					"mcc": "6211",
+					"purpose": "25"
+				}, {
+					"mcc": "8011"
+				}, {
+					"mcc": "8021"
+				}, {
+					"mcc": "8031"
+				}, {
+					"mcc": "8041"
+				}, {
+					"mcc": "8042"
+				}, {
+					"mcc": "8049"
+				}, {
+					"mcc": "8050"
+				}, {
+					"mcc": "8062"
+				}, {
+					"mcc": "8071"
+				}, {
+					"mcc": "8099"
+				}, {
+					"mcc": "742"
+				}, {
+					"mcc": "8211"
+				}, {
+					"mcc": "8220"
+				}, {
+					"mcc": "8241"
+				}, {
+					"mcc": "8244"
+				}, {
+					"mcc": "8249"
+				}, {
+					"mcc": "8299"
+				}, {
+					"mcc": "9311"
+				}]
+			}, {
+				"maxLimit": 200000,
+				"list": [{
+					"mcc": "6211"
+				}, {
+					"mcc": "7322"
+				}, {
+					"mcc": "5960"
+				}, {
+					"mcc": "6300"
+				}, {
+					"mcc": "6529"
+				}, {
+					"mcc": "5413"
+				}]
+			}]
+		},
+		"integrity_config": {
+			"0": [],
+			"1": [
+				"ACTIVE_CALL",
+				"NETWORK_PROXY",
+				"NETWORK_SECURE_WIFI",
+				"NETWORK_VPN",
+				"USB_DEBUGGING",
+				"DEVELOPER_OPTIONS",
+				"MALICIOUS_CERTIFICATE"],
+			"2": [
+				"ACTIVE_SCREEN_RECORDING",
+				"ROOTED",
+				"EMULATOR"]
+		},
+		"pdi_config": "eyJyb290Q2hlY2tzIjp7ImNoZWNrRm9yTWFnaXNrQmluYXJ5Ijp7ImN1cnJlbnRWZXJzaW9uIjp7ImNvbmZpZyI6WyIvZGF0YS9sb2NhbC8iLCIvZGF0YS9sb2NhbC9iaW4vIiwiL2RhdGEvbG9jYWwveGJpbi8iLCIvc2Jpbi8iLCIvc3UvYmluLyIsIi9zeXN0ZW0vYmluLyIsIi9zeXN0ZW0vYmluLy5leHQvIiwiL3N5c3RlbS9iaW4vZmFpbHNhZmUvIiwiL3N5c3RlbS9zZC94YmluLyIsIi9zeXN0ZW0vdXNyL3dlLW5lZWQtcm9vdC8iLCIvc3lzdGVtL3hiaW4vIiwiL2NhY2hlLyIsIi9kYXRhLyIsIi9kZXYvIl0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJjaGVja0ZvclJvb3ROYXRpdmUiOnsiY3VycmVudFZlcnNpb24iOnsiY29uZmlnIjpbIi9kYXRhL2xvY2FsLyIsIi9kYXRhL2xvY2FsL2Jpbi8iLCIvZGF0YS9sb2NhbC94YmluLyIsIi9zYmluLyIsIi9zdS9iaW4vIiwiL3N5c3RlbS9iaW4vIiwiL3N5c3RlbS9iaW4vLmV4dC8iLCIvc3lzdGVtL2Jpbi9mYWlsc2FmZS8iLCIvc3lzdGVtL3NkL3hiaW4vIiwiL3N5c3RlbS91c3Ivd2UtbmVlZC1yb290LyIsIi9zeXN0ZW0veGJpbi8iLCIvY2FjaGUvIiwiL2RhdGEvIiwiL2Rldi8iXSwidmVyc2lvbiI6MX0sImVuYWJsZWQiOnRydWUsInJvbGxvdXRQZXJjZW50YWdlIjo3NX0sImNoZWNrV2hpY2hTdUV4aXN0cyI6eyJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJkYW5nZXJvdXNQcm9wcyI6eyJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJkZXRlY3RUZXN0S2V5cyI6eyJjdXJyZW50VmVyc2lvbiI6eyJjb25maWciOlsidGVzdC1rZXlzIl0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJrbm93bkRhbmdlcm91c0FwcHMiOnsiY3VycmVudFZlcnNpb24iOnsiY29uZmlnIjpbImNvbS5rb3VzaGlrZHV0dGEucm9tbWFuYWdlciIsImNvbS5rb3VzaGlrZHV0dGEucm9tbWFuYWdlci5saWNlbnNlIiwiY29tLmRpbW9udmlkZW8ubHVja3lwYXRjaGVyIiwiY29tLmNoZWxwdXMubGFja3lwYXRjaCIsImNvbS5yYW1kcm9pZC5hcHBxdWFyYW50aW5lIiwiY29tLnJhbWRyb2lkLmFwcHF1YXJhbnRpbmVwcm8iLCJjb20uYW5kcm9pZC52ZW5kaW5nLmJpbGxpbmcuSW5BcHBCaWxsaW5nU2VydmljZS5DT0lOIiwiY29tLmFuZHJvaWQudmVuZGluZy5iaWxsaW5nLkluQXBwQmlsbGluZ1NlcnZpY2UuTFVDSyIsImNvbS5jaGVscHVzLmx1Y2t5cGF0Y2hlciIsImNvbS5ibGFja21hcnRhbHBoYSIsIm9yZy5ibGFja21hcnQubWFya2V0IiwiY29tLmFsbGlub25lLmZyZWUiLCJjb20ucmVwb2Ryb2lkLmFwcCIsIm9yZy5jcmVlcGxheXMuaGFjayIsImNvbS5iYXNlYXBwZnVsbC5md2QiLCJjb20uem1hcHAiLCJjb20uZHYubWFya2V0bW9kLmluc3RhbGxlciIsIm9yZy5tb2JpbGlzbS5hbmRyb2lkIiwiY29tLmFuZHJvaWQud3AubmV0LmxvZyIsImNvbS5hbmRyb2lkLmNhbWVyYS51cGRhdGUiLCJjYy5tYWRraXRlLmZyZWVkb20iLCJjb20uc29sb2hzdS5hbmRyb2lkLmVkeHAubWFuYWdlciIsIm9yZy5tZW93Y2F0LmVkeHBvc2VkLm1hbmFnZXIiLCJjb20ueG1vZGdhbWUiLCJjb20uY2loLmdhbWVfY2loIiwiY29tLmNoYXJsZXMubHBvcWFzZXJ0IiwiY2F0Y2hfLm1lXy5pZl8ueW91Xy5jYW5fIl0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJrbm93blJvb3RDbG9ha2luZ1BhY2thZ2VzIjp7ImN1cnJlbnRWZXJzaW9uIjp7ImNvbmZpZyI6WyJjb20uZGV2YWR2YW5jZS5yb290Y2xvYWsiLCJjb20uZGV2YWR2YW5jZS5yb290Y2xvYWtwbHVzIiwiZGUucm9idi5hbmRyb2lkLnhwb3NlZC5pbnN0YWxsZXIiLCJjb20uc2F1cmlrLnN1YnN0cmF0ZSIsImNvbS56YWNoc3BvbmcudGVtcHJvb3RyZW1vdmVqYiIsImNvbS5hbXBob3Jhcy5oaWRlbXlyb290IiwiY29tLmFtcGhvcmFzLmhpZGVteXJvb3RhZGZyZWUiLCJjb20uZm9ybXlobS5oaWRlcm9vdFByZW1pdW0iLCJjb20uZm9ybXlobS5oaWRlcm9vdCJdLCJ2ZXJzaW9uIjoxfSwiZW5hYmxlZCI6dHJ1ZSwicm9sbG91dFBlcmNlbnRhZ2UiOjc1fSwia25vd25Sb290UGFja2FnZXMiOnsiY3VycmVudFZlcnNpb24iOnsiY29uZmlnIjpbImNvbS5ub3NodWZvdS5hbmRyb2lkLnN1IiwiY29tLm5vc2h1Zm91LmFuZHJvaWQuc3UuZWxpdGUiLCJldS5jaGFpbmZpcmUuc3VwZXJzdSIsImNvbS5rb3VzaGlrZHV0dGEuc3VwZXJ1c2VyIiwiY29tLnRoaXJkcGFydHkuc3VwZXJ1c2VyIiwiY29tLnllbGxvd2VzLnN1IiwiY29tLnRvcGpvaG53dS5tYWdpc2siLCJjb20ua2luZ3Jvb3Qua2luZ3VzZXIiLCJjb20ua2luZ28ucm9vdCIsImNvbS5zbWVkaWFsaW5rLm9uZWNsaWNrcm9vdCIsImNvbS56aGlxdXBrLnJvb3QuZ2xvYmFsIiwiY29tLmFsZXBoemFpbi5mcmFtYXJvb3QiXSwidmVyc2lvbiI6MX0sImVuYWJsZWQiOnRydWUsInJvbGxvdXRQZXJjZW50YWdlIjo3NX0sInBhdGhzVGhhdFNob3VsZE5vdEJlV3JpdGFibGUiOnsiY3VycmVudFZlcnNpb24iOnsiY29uZmlnIjpbIi9zeXN0ZW0iLCIvc3lzdGVtL2JpbiIsIi9zeXN0ZW0vc2JpbiIsIi9zeXN0ZW0veGJpbiIsIi92ZW5kb3IvYmluIiwiL3NiaW4iLCIvZXRjIl0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJzdVBhdGhzIjp7ImN1cnJlbnRWZXJzaW9uIjp7ImNvbmZpZyI6WyIvZGF0YS9sb2NhbC8iLCIvZGF0YS9sb2NhbC9iaW4vIiwiL2RhdGEvbG9jYWwveGJpbi8iLCIvc2Jpbi8iLCIvc3UvYmluLyIsIi9zeXN0ZW0vYmluLyIsIi9zeXN0ZW0vYmluLy5leHQvIiwiL3N5c3RlbS9iaW4vZmFpbHNhZmUvIiwiL3N5c3RlbS9zZC94YmluLyIsIi9zeXN0ZW0vdXNyL3dlLW5lZWQtcm9vdC8iLCIvc3lzdGVtL3hiaW4vIiwiL2NhY2hlLyIsIi9kYXRhLyIsIi9kZXYvIl0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9fSwiZW11Q2hlY2tzIjp7ImVtdVBhdGhzIjp7ImN1cnJlbnRWZXJzaW9uIjp7ImNvbmZpZyI6WyIvZGV2L3NvY2tldC9nZW55ZCIsIi9kZXYvc29ja2V0L2Jhc2ViYW5kX2dlbnlkIiwiL2Rldi9zb2NrZXQvcWVtdWQiLCIvZGV2L3FlbXVfcGlwZSIsInVldmVudGQuYW5kcm9pZF94ODYucmMiLCJ4ODYucHJvcCIsInVldmVudGQudHRWTV94ODYucmMiLCJpbml0LnR0Vk1feDg2LnJjIiwiZnN0YWIudHRWTV94ODYiLCJmc3RhYi52Ym94ODYiLCJpbml0LnZib3g4Ni5yYyIsInVldmVudGQudmJveDg2LnJjIiwiZnN0YWIuYW5keSIsInVldmVudGQuYW5keS5yYyIsImZzdGFiLm5veCIsImluaXQubm94LnJjIiwidWV2ZW50ZC5ub3gucmMiXSwidmVyc2lvbiI6MX0sImVuYWJsZWQiOnRydWUsInJvbGxvdXRQZXJjZW50YWdlIjo3NX0sImVtdUtleVdvcmRzIjp7ImN1cnJlbnRWZXJzaW9uIjp7ImNvbmZpZyI6WyJnZW55bW90aW9uIiwiZHJvaWQ0eCIsImVtdWxhdG9yIiwiZ29sZGZpc2giLCJ2Ym94ODYiLCJub3giLCJnZW5lcmljIiwic2RrIiwidmJveDg2cCIsImJ1aWxkIHByb3BlcnRpZXMiLCJhb3NwIiwicmFuY2h1IiwiYW5keSIsImFtaWR1b3MiLCJtc2kgYXBwIHBsYXllciIsImJsdWVzdGFja3MiLCJ4ODYiLCJxZW11IiwiZ2VueW1vYmlsZSIsInRpYW50aWFudm0iLCJ2aXJ0dWFsYm94Il0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9LCJlbXVLbm93bk51bWJlcnMiOnsiY3VycmVudFZlcnNpb24iOnsiY29uZmlnIjpbIjE1NTU1MjE1NTU0IiwiMTU1NTUyMTU1NTYiLCIxNTU1NTIxNTU1OCIsIjE1NTU1MjE1NTYwIiwiMTU1NTUyMTU1NjIiLCIxNTU1NTIxNTU2NCIsIjE1NTU1MjE1NTY2IiwiMTU1NTUyMTU1NjgiLCIxNTU1NTIxNTU3MCIsIjE1NTU1MjE1NTcyIiwiMTU1NTUyMTU1NzQiLCIxNTU1NTIxNTU3NiIsIjE1NTU1MjE1NTc4IiwiMTU1NTUyMTU1ODAiLCIxNTU1NTIxNTU4MiIsIjE1NTU1MjE1NTg0Il0sInZlcnNpb24iOjF9LCJlbmFibGVkIjp0cnVlLCJyb2xsb3V0UGVyY2VudGFnZSI6NzV9fX0=",
+		"pdi_config_v2": "eyJyYyI6eyJtZ3hoIjp7ImN2Ijp7ImMiOlsiY28ua2VlcHRvcC5tdWx0aS5jbG9uZSIsImNvbS5jaGVhdGJveCIsImNvbS5sb29rZXIuZHJvaWRpZnkiLCJjb20ucHViZ20iLCJjb20udGVuY2VudC5pZyIsImNvbS52aXAubG9hZGVyIiwiY29tLndvb2NvbW1lcmNlLmFuZHJvaWQiLCJ2aXJ0dWFsLmFwcC5jbG9uZS5hcHAiXSwidiI6MX0sImUiOnRydWUsInJwIjoxMDB9LCJjaG1hbCI6eyJjdiI6eyJjIjpbImhpZGVteWFwcGxpc3QiXSwidiI6MX0sImUiOnRydWUsInJwIjoxMDB9LCJjZm1iIjp7ImN2Ijp7ImMiOlsiL2RhdGEvbG9jYWwvIiwiL2RhdGEvbG9jYWwvYmluLyIsIi9kYXRhL2xvY2FsL3hiaW4vIiwiL3NiaW4vIiwiL3N1L2Jpbi8iLCIvc3lzdGVtL2Jpbi8iLCIvc3lzdGVtL2Jpbi8uZXh0LyIsIi9zeXN0ZW0vYmluL2ZhaWxzYWZlLyIsIi9zeXN0ZW0vc2QveGJpbi8iLCIvc3lzdGVtL3Vzci93ZS1uZWVkLXJvb3QvIiwiL3N5c3RlbS94YmluLyIsIi9jYWNoZS8iLCIvZGF0YS8iLCIvZGV2LyJdLCJ2IjoxfSwiZSI6dHJ1ZSwicnAiOjEwMH0sImNmcm4iOnsiY3YiOnsiYyI6WyIvZGF0YS9sb2NhbC8iLCIvZGF0YS9sb2NhbC9iaW4vIiwiL2RhdGEvbG9jYWwveGJpbi8iLCIvc2Jpbi8iLCIvc3UvYmluLyIsIi9zeXN0ZW0vYmluLyIsIi9zeXN0ZW0vYmluLy5leHQvIiwiL3N5c3RlbS9iaW4vZmFpbHNhZmUvIiwiL3N5c3RlbS9zZC94YmluLyIsIi9zeXN0ZW0vdXNyL3dlLW5lZWQtcm9vdC8iLCIvc3lzdGVtL3hiaW4vIiwiL2NhY2hlLyIsIi9kYXRhLyIsIi9kZXYvIl0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwiY3dzZSI6eyJlIjp0cnVlLCJycCI6MTAwfSwiZHAiOnsiZSI6dHJ1ZSwicnAiOjEwMH0sImR0ayI6eyJjdiI6eyJjIjpbInRlc3Qta2V5cyJdLCJ2IjoxfSwiZSI6dHJ1ZSwicnAiOjEwMH0sImtkYSI6eyJjdiI6eyJjIjpbImNvbS5rb3VzaGlrZHV0dGEucm9tbWFuYWdlciIsImNvbS53aGF0c2FwcCIsImNvbS5rb3VzaGlrZHV0dGEucm9tbWFuYWdlci5saWNlbnNlIiwiY29tLmRpbW9udmlkZW8ubHVja3lwYXRjaGVyIiwiY29tLmNoZWxwdXMubGFja3lwYXRjaCIsImNvbS5yYW1kcm9pZC5hcHBxdWFyYW50aW5lIiwiY29tLnJhbWRyb2lkLmFwcHF1YXJhbnRpbmVwcm8iLCJjb20uYW5kcm9pZC52ZW5kaW5nLmJpbGxpbmcuSW5BcHBCaWxsaW5nU2VydmljZS5DT0lOIiwiY29tLmFuZHJvaWQudmVuZGluZy5iaWxsaW5nLkluQXBwQmlsbGluZ1NlcnZpY2UuTFVDSyIsImNvbS5jaGVscHVzLmx1Y2t5cGF0Y2hlciIsImNvbS5ibGFja21hcnRhbHBoYSIsIm9yZy5ibGFja21hcnQubWFya2V0IiwiY29tLmFsbGlub25lLmZyZWUiLCJjb20ucmVwb2Ryb2lkLmFwcCIsIm9yZy5jcmVlcGxheXMuaGFjayIsImNvbS5iYXNlYXBwZnVsbC5md2QiLCJjb20uem1hcHAiLCJjb20uZHYubWFya2V0bW9kLmluc3RhbGxlciIsIm9yZy5tb2JpbGlzbS5hbmRyb2lkIiwiY29tLmFuZHJvaWQud3AubmV0LmxvZyIsImNvbS5hbmRyb2lkLmNhbWVyYS51cGRhdGUiLCJjYy5tYWRraXRlLmZyZWVkb20iLCJjb20uc29sb2hzdS5hbmRyb2lkLmVkeHAubWFuYWdlciIsIm9yZy5tZW93Y2F0LmVkeHBvc2VkLm1hbmFnZXIiLCJjb20ueG1vZGdhbWUiLCJjb20uY2loLmdhbWVfY2loIiwiY29tLmNoYXJsZXMubHBvcWFzZXJ0IiwiY2F0Y2hfLm1lXy5pZl8ueW91Xy5jYW5fIl0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwia3JjcCI6eyJjdiI6eyJjIjpbImNvbS5kZXZhZHZhbmNlLnJvb3RjbG9hayIsImNvbS5kZXZhZHZhbmNlLnJvb3RjbG9ha3BsdXMiLCJkZS5yb2J2LmFuZHJvaWQueHBvc2VkLmluc3RhbGxlciIsImNvbS5zYXVyaWsuc3Vic3RyYXRlIiwiY29tLnphY2hzcG9uZy50ZW1wcm9vdHJlbW92ZWpiIiwiY29tLmFtcGhvcmFzLmhpZGVteXJvb3QiLCJjb20uYW1waG9yYXMuaGlkZW15cm9vdGFkZnJlZSIsImNvbS5mb3JteWhtLmhpZGVyb290UHJlbWl1bSIsImNvbS5mb3JteWhtLmhpZGVyb290Il0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwia3JwIjp7ImN2Ijp7ImMiOlsiY29tLm5vc2h1Zm91LmFuZHJvaWQuc3UiLCJjb20ubm9zaHVmb3UuYW5kcm9pZC5zdS5lbGl0ZSIsImV1LmNoYWluZmlyZS5zdXBlcnN1IiwiY29tLmtvdXNoaWtkdXR0YS5zdXBlcnVzZXIiLCJjb20udGhpcmRwYXJ0eS5zdXBlcnVzZXIiLCJjb20ueWVsbG93ZXMuc3UiLCJjb20udG9wam9obnd1Lm1hZ2lzayIsImNvbS5raW5ncm9vdC5raW5ndXNlciIsImNvbS5raW5nby5yb290IiwiY29tLnNtZWRpYWxpbmsub25lY2xpY2tyb290IiwiY29tLnpoaXF1cGsucm9vdC5nbG9iYWwiLCJjb20uYWxlcGh6YWluLmZyYW1hcm9vdCJdLCJ2IjoxfSwiZSI6dHJ1ZSwicnAiOjEwMH0sInB0c25idyI6eyJjdiI6eyJjIjpbIi9zeXN0ZW0iLCIvc3lzdGVtL2JpbiIsIi9zeXN0ZW0vc2JpbiIsIi9zeXN0ZW0veGJpbiIsIi92ZW5kb3IvYmluIiwiL3NiaW4iLCIvZXRjIl0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwic3AiOnsiY3YiOnsiYyI6WyIvZGF0YS9sb2NhbC8iLCIvZGF0YS9sb2NhbC9iaW4vIiwiL2RhdGEvbG9jYWwveGJpbi8iLCIvc2Jpbi8iLCIvc3UvYmluLyIsIi9zeXN0ZW0vYmluLyIsIi9zeXN0ZW0vYmluLy5leHQvIiwiL3N5c3RlbS9iaW4vZmFpbHNhZmUvIiwiL3N5c3RlbS9zZC94YmluLyIsIi9zeXN0ZW0vdXNyL3dlLW5lZWQtcm9vdC8iLCIvc3lzdGVtL3hiaW4vIiwiL2NhY2hlLyIsIi9kYXRhLyIsIi9kZXYvIl0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfX0sImVjIjp7ImVwIjp7ImN2Ijp7ImMiOlsiL2Rldi9zb2NrZXQvZ2VueWQiLCIvZGV2L3NvY2tldC9iYXNlYmFuZF9nZW55ZCIsIi9kZXYvc29ja2V0L3FlbXVkIiwiL2Rldi9xZW11X3BpcGUiLCJ1ZXZlbnRkLmFuZHJvaWRfeDg2LnJjIiwieDg2LnByb3AiLCJ1ZXZlbnRkLnR0Vk1feDg2LnJjIiwiaW5pdC50dFZNX3g4Ni5yYyIsImZzdGFiLnR0Vk1feDg2IiwiZnN0YWIudmJveDg2IiwiaW5pdC52Ym94ODYucmMiLCJ1ZXZlbnRkLnZib3g4Ni5yYyIsImZzdGFiLmFuZHkiLCJ1ZXZlbnRkLmFuZHkucmMiLCJmc3RhYi5ub3giLCJpbml0Lm5veC5yYyIsInVldmVudGQubm94LnJjIl0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwiZWt3Ijp7ImN2Ijp7ImMiOlsiZ2VueW1vdGlvbiIsImRyb2lkNHgiLCJlbXVsYXRvciIsImdvbGRmaXNoIiwidmJveDg2Iiwibm94IiwiZ2VuZXJpYyIsImdwaG9uZSIsInZib3g4NnAiLCJidWlsZCBwcm9wZXJ0aWVzIiwicmFuY2h1IiwiYW5keSIsImFtaWR1b3MiLCJtc2kgYXBwIHBsYXllciIsImJsdWVzdGFja3MiLCJ4ODYiLCJxZW11IiwiZ2VueW1vYmlsZSIsInRpYW50aWFudm0iLCJ2aXJ0dWFsYm94Il0sInYiOjF9LCJlIjp0cnVlLCJycCI6MTAwfSwiZWtuIjp7ImN2Ijp7ImMiOlsiMTU1NTUyMTU1NTQiLCIxNTU1NTIxNTU1NiIsIjE1NTU1MjE1NTU4IiwiMTU1NTUyMTU1NjAiLCIxNTU1NTIxNTU2MiIsIjE1NTU1MjE1NTY0IiwiMTU1NTUyMTU1NjYiLCIxNTU1NTIxNTU2OCIsIjE1NTU1MjE1NTcwIiwiMTU1NTUyMTU1NzIiLCIxNTU1NTIxNTU3NCIsIjE1NTU1MjE1NTc2IiwiMTU1NTUyMTU1NzgiLCIxNTU1NTIxNTU4MCIsIjE1NTU1MjE1NTgyIiwiMTU1NTUyMTU1ODQiXSwidiI6MX0sImUiOnRydWUsInJwIjoxMDB9fX0="
+	}
+}
