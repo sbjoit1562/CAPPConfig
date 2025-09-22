@@ -1,9 +1,28 @@
 {
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.1.0",
   "name": "CAPP Config",
   "description": "Configuration settings for CAPP application",
   "whats_new": {
-    
+    "1.1.0": {
+      "version": "1.1.0",
+      "releaseDate": "2025-01-27",
+      "title": "Dynamic Work Categories & Enhanced Configuration",
+      "description": "Added dynamic Work Category & Sub Category configuration system",
+      "features": [
+        "Dynamic Work Category & Sub Category loading from config",
+        "Configurable default Work Categories for different ticket types",
+        "Centralized configuration management",
+        "Enhanced validation system"
+      ],
+      "improvements": [
+        "Removed hardcoded Work Category data",
+        "Improved configuration flexibility",
+        "Better maintainability",
+        "Enhanced user experience with smart defaults"
+      ],
+      "cta_text": "Update to latest version",
+      "cta_url": "https://chromewebstore.google.com/detail/capp-collaboration-tool/lgjlanpgofmeijljglhdlegegljjnibi"
+    },
     "1.0.0": {
       "version": "1.0.0",
       "releaseDate": "2025-09-20",
@@ -23,5 +42,223 @@
   },
   "promotional": {
     "text": ""
+  },
+  "workCategories": {
+    "defaults": {
+      "collaboration": "30919",
+      "meeting": "30921",
+      "syncMeeting": "30921"
+    },
+    "categories": [
+      {
+        "value": "30914",
+        "text": "New Feature Development",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "30924", "text": "Auth" },
+          { "value": "30925", "text": "Mandate" },
+          { "value": "30926", "text": "Camera Scanner" },
+          { "value": "30927", "text": "Chat" },
+          { "value": "30928", "text": "Common H5/Web" },
+          { "value": "30929", "text": "COMS" },
+          { "value": "30930", "text": "Network Layer" },
+          { "value": "30931", "text": "Utility" },
+          { "value": "30932", "text": "Notification" },
+          { "value": "30933", "text": "Signals" },
+          { "value": "30934", "text": "Hawkeye" },
+          { "value": "30935", "text": "Phoenix SDK" },
+          { "value": "30936", "text": "Jarvis" },
+          { "value": "30937", "text": "Integrity" },
+          { "value": "30938", "text": "Home Storefront" },
+          { "value": "30939", "text": "Pods Design" },
+          { "value": "30940", "text": "Discovery" },
+          { "value": "30941", "text": "Passbook" },
+          { "value": "30942", "text": "EAS" },
+          { "value": "30943", "text": "Post Payment Screen" },
+          { "value": "30944", "text": "Onboarding" },
+          { "value": "30945", "text": "Money Transfer" },
+          { "value": "30946", "text": "Wallet" },
+          { "value": "30947", "text": "Referral" },
+          { "value": "30948", "text": "Paytm-Web" },
+          { "value": "30949", "text": "Shopapp" },
+          { "value": "30950", "text": "IR" },
+          { "value": "30951", "text": "Foundation" },
+          { "value": "30952", "text": "PFM" },
+          { "value": "30953", "text": "Pulse" },
+          { "value": "30954", "text": "SEO" },
+          { "value": "30955", "text": "Web Panels" },
+          { "value": "30956", "text": "Cashback" },
+          { "value": "30957", "text": "Growth" },
+          { "value": "30958", "text": "H5-SDK" },
+          { "value": "30959", "text": "Settings" },
+          { "value": "30960", "text": "Myorders" },
+          { "value": "30961", "text": "Search" },
+          { "value": "30962", "text": "Paytm First" },
+          { "value": "30963", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30915",
+        "text": "Feature Enhancements",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "30964", "text": "Auth" },
+          { "value": "30965", "text": "Mandate" },
+          { "value": "30966", "text": "Camera Scanner" },
+          { "value": "30967", "text": "Chat" },
+          { "value": "30968", "text": "Common H5/Web" },
+          { "value": "30969", "text": "COMS" },
+          { "value": "30970", "text": "Network Layer" },
+          { "value": "30971", "text": "Utility" },
+          { "value": "30972", "text": "Notification" },
+          { "value": "30973", "text": "Signals" },
+          { "value": "30974", "text": "Hawkeye" },
+          { "value": "30975", "text": "Phoenix SDK" },
+          { "value": "30976", "text": "Jarvis" },
+          { "value": "30977", "text": "Integrity" },
+          { "value": "30978", "text": "Home" },
+          { "value": "30979", "text": "Storefront" },
+          { "value": "30980", "text": "Pods Design" },
+          { "value": "30981", "text": "Discovery" },
+          { "value": "30982", "text": "Passbook" },
+          { "value": "30983", "text": "EAS" },
+          { "value": "30984", "text": "Post Payment Screen" },
+          { "value": "30985", "text": "Onboarding" },
+          { "value": "30986", "text": "Money Transfer" },
+          { "value": "30987", "text": "Wallet" },
+          { "value": "30988", "text": "Referral" },
+          { "value": "30989", "text": "Paytm-Web" },
+          { "value": "30990", "text": "Shopapp" },
+          { "value": "30991", "text": "IR" },
+          { "value": "30992", "text": "Foundation" },
+          { "value": "30993", "text": "PFM" },
+          { "value": "30994", "text": "Pulse" },
+          { "value": "30995", "text": "SEO" },
+          { "value": "30996", "text": "Web Panels" },
+          { "value": "30997", "text": "Cashback" },
+          { "value": "30998", "text": "Growth" },
+          { "value": "30999", "text": "H5-SDK" },
+          { "value": "31000", "text": "Settings" },
+          { "value": "31001", "text": "Myorders" },
+          { "value": "31002", "text": "Search" },
+          { "value": "31003", "text": "Paytm First" },
+          { "value": "31004", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30916",
+        "text": "Operational Excellence",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31005", "text": "Production Bugs" },
+          { "value": "31006", "text": "Environment Issues" },
+          { "value": "31007", "text": "Security & Compliance" },
+          { "value": "31008", "text": "Vendor discussions" },
+          { "value": "31009", "text": "Infra Scaling" },
+          { "value": "31010", "text": "Stability and Cost Support" },
+          { "value": "31011", "text": "Ad Hoc Tasks" },
+          { "value": "31012", "text": "Product and Business Requests" },
+          { "value": "31013", "text": "Alerting and Monitoring" },
+          { "value": "31014", "text": "Performance Optimization" },
+          { "value": "31015", "text": "Scalability Enhancements" },
+          { "value": "31048", "text": "PR Review" },
+          { "value": "30603", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30917",
+        "text": "Engineering Excellence",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31016", "text": "Code Refactoring" },
+          { "value": "31017", "text": "Test Automation (for existing code)" },
+          { "value": "31018", "text": "Library/Framework Upgrades (outdated dependencies, security patches)" },
+          { "value": "31019", "text": "Architecture Modernization (breaking apart monoliths, modularization, microservices transition)" },
+          { "value": "31020", "text": "Data Quality & Pipeline Fixes (schema cleanups, deduplication, legacy data migrations)" },
+          { "value": "31021", "text": "Security Hardening (tech debt side, not KTLO incidents)" },
+          { "value": "31022", "text": "Deprecated Services Cleanup (removing old code paths, unused APIs)" },
+          { "value": "30604", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30918",
+        "text": "Automation & Tooling (Reducing Toil)",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31023", "text": "CI/CD Improvements" },
+          { "value": "31024", "text": "Monitoring / Observability Tooling" },
+          { "value": "31025", "text": "Internal Developer Tools (dashboards, CLIs, scripts)" },
+          { "value": "31026", "text": "Release Automation (deployment, rollback tooling)" },
+          { "value": "31027", "text": "Infra as Code Enhancements" },
+          { "value": "31028", "text": "Cost Automation Tools (automated instance scaling, idle job cleanup)" },
+          { "value": "30605", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30919",
+        "text": "Support & Cross-Team Collaboration",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31029", "text": "Customer Support Escalations" },
+          { "value": "31030", "text": "Cross-Team Project Support (helping other squads)" },
+          { "value": "31031", "text": "Documentation & Knowledge Sharing" },
+          { "value": "31032", "text": "Onboarding / Mentorship Support" },
+          { "value": "30606", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30920",
+        "text": "Research / POC",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31033", "text": "Tech Evaluation (new framework/tool)" },
+          { "value": "31034", "text": "Design Spikes (exploring architectural approaches)" },
+          { "value": "31035", "text": "Prototype Development (throwaway code)" },
+          { "value": "31036", "text": "Benchmarking & Performance Tests" },
+          { "value": "30607", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30921",
+        "text": "Meetings",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31040", "text": "1:1s & Mentorship" },
+          { "value": "30611", "text": "Daily Standup" },
+          { "value": "31039", "text": "Design Reviews" },
+          { "value": "31037", "text": "Hiring & Interviews" },
+          { "value": "30608", "text": "Others" },
+          { "value": "30610", "text": "Requirement Grooming" },
+          { "value": "31038", "text": "Sprint/Quarterly Planning" },
+          { "value": "31041", "text": "Training & Onboarding" }
+        ]
+      },
+      {
+        "value": "30922",
+        "text": "Cost Optimization",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31042", "text": "Infra Rightsizing" },
+          { "value": "31043", "text": "Storage Optimization" },
+          { "value": "31044", "text": "Query/Job Cost Reduction (e.g., Snowflake, BigQuery)" },
+          { "value": "31045", "text": "License Rationalization (tools, SaaS)" },
+          { "value": "31046", "text": "Reserved/Spot Instance Usage" },
+          { "value": "30609", "text": "Others" }
+        ]
+      },
+      {
+        "value": "30923",
+        "text": "Others",
+        "subCategories": [
+          { "value": "", "text": "None" },
+          { "value": "31047", "text": "Others" }
+        ]
+      }
+    ]
+  },
+  "config": {
+    "configUrl": "https://raw.githubusercontent.com/sbjoit1562/CAPPConfig/main/chrome-config.json",
+    "cacheTimeout": 3600000,
+    "fallbackToLocal": true
   }
 }
