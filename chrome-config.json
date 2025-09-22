@@ -1,4 +1,7 @@
 {
+  "marquee": {
+    "text": "Welcome to CAPP - Your Collaboration Tool for Enhanced Productivity! 🚀"
+  },
   "latestVersion": "1.0.0",
   "name": "CAPP Config",
   "description": "Configuration settings for CAPP application",
@@ -43,6 +46,11 @@
   "promotional": {
     "text": ""
   },
+  "festive": {
+    "text": "Testing festive banner",
+    "icon": "👌"
+  },
+
   "workCategories": {
     "defaults": {
       "collaboration": "30919",
