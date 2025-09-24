@@ -2,44 +2,25 @@
   "marquee": {
     "text": "Welcome to CAPP - Your Collaboration Tool for Enhanced Productivity! 🚀"
   },
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.3.0",
   "name": "CAPP Config",
   "description": "Configuration settings for CAPP application",
   "whats_new": {
-    "1.1.0": {
-      "version": "1.1.0",
-      "releaseDate": "2025-01-27",
-      "title": "Dynamic Work Categories & Enhanced Configuration",
-      "description": "Added dynamic Work Category & Sub Category configuration system",
+    "1.3.0": {
+      "version": "1.3.0",
+      "releaseDate": "2025-09-24",
+      "title": "Update V.1.3.0",
+      "description": "Added Lots of new features",
       "features": [
-        "Dynamic Work Category & Sub Category loading from config",
-        "Configurable default Work Categories for different ticket types",
-        "Centralized configuration management",
-        "Enhanced validation system"
+        "Added support to select JIRA Work Category & Sub Category ",
+        "Added Section to View and update JIRA status"
+       
       ],
       "improvements": [
-        "Removed hardcoded Work Category data",
-        "Improved configuration flexibility",
-        "Better maintainability",
-        "Enhanced user experience with smart defaults"
+        "Improved Google meet ticket creation process"
+
       ],
       "cta_text": "Update to latest version",
-      "cta_url": "https://chromewebstore.google.com/detail/capp-collaboration-tool/lgjlanpgofmeijljglhdlegegljjnibi"
-    },
-    "1.0.0": {
-      "version": "1.0.0",
-      "releaseDate": "2025-09-20",
-      "title": "Fixed UI Bugs",
-      "description": "Initial Release",
-      "features": [
-        "Beta configuration system",
-        "Initial testing framework"
-      ],
-      "improvements": [
-        "Performance optimizations",
-        "Bug fixes from alpha testing"
-      ],
-      "cta_text": "",
       "cta_url": "https://chromewebstore.google.com/detail/capp-collaboration-tool/lgjlanpgofmeijljglhdlegegljjnibi"
     }
   },
