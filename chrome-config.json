@@ -27,10 +27,7 @@
   "promotional": {
     "text": ""
   },
-  "festive": {
-    "text": "Don't forget to update EPIC jiras for October",
-    "icon": "⭐️"
-  },
+  
   "workCategories": {
     "defaults": {
       "collaboration": "30919",
