@@ -1,0 +1,36 @@
+{
+  "modals":[
+    {
+      "key": "dummy_key",
+      "title": "Dummy Title",
+      "description": "Dummy description",
+      "cta_text": "Update to latest version",
+      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
+    },
+    {
+      "key": "dummy_key1",
+      "title": "Dummy Title1",
+      "description": "Dummy description1",
+      "cta_text": "Update to latest version1",
+      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
+    }
+
+  ],
+  "updates": {
+    "1.1": {
+      "title": "Update V1.1",
+      "description": "Added Lots of new features",
+      "features": [
+        "Added support to select JIRA Work Category & Sub Category ",
+        "Added Section to View and update JIRA status"
+       
+      ],
+      "improvements": [
+        "Improved Google meet ticket creation process"
+
+      ],
+      "cta_text": "Update to latest version",
+      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
+    }
+  }
+}
