@@ -1,8 +1,12 @@
 {
+   "welcome_text":{
+    "title": "Welcome back!",
+    "description": "Hey there! Don’t forget to drink some water today 💦"
+  },
   "modals":[
     {
       "key": "welcome2",
-      "title": "Welcome to Friday",
+      "title": "Welcome to Friday🥳",
       "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click",
       "cta_text": "Got it",
       "cta_url": ""
