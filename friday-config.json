@@ -1,7 +1,7 @@
 {
   "modals":[
     {
-      "key": "welcome1",
+      "key": "welcome2",
       "title": "Welcome to Friday",
       "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click",
       "cta_text": "Got it",
