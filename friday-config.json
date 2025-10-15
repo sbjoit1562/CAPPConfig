@@ -1,20 +1,12 @@
 {
   "modals":[
     {
-      "key": "dummy_key",
-      "title": "Dummy Title",
-      "description": "Dummy description",
-      "cta_text": "Update to latest version",
-      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
-    },
-    {
-      "key": "dummy_key1",
-      "title": "Dummy Title1",
-      "description": "Dummy description1",
-      "cta_text": "Update to latest version1",
-      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
+      "key": "welcome1",
+      "title": "Welcome to Friday",
+      "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click",
+      "cta_text": "Got it",
+      "cta_url": ""
     }
-
   ],
   "updates": {
     "1.1": {
