@@ -8,6 +8,24 @@
       "cta_url": ""
     }
   ],
+   "epic_presets": [
+     {
+        "id": "october-2025",
+        "name": "October 2025",
+        "description": "Default EPICs for October 2025 sprint",
+        "valid_from": "2025-10-01",
+        "valid_to": "2025-10-31",
+        "epics": {
+          "meetings": "CAPP-1810",
+          "engineering_excellence": "CAPP-1811",
+          "incidents_prod_bugs": "CAPP-1644",
+          "operational_excellence": "CAPP-1812",
+          "support_collaboration": "CAPP-1813",
+          "miscellaneous_features": "CAPP-1814",
+          "incidents_crashes": "CAPP-1815"
+        }
+      }
+   ],
   "updates": {
     "1.1": {
       "title": "Update V1.1",
