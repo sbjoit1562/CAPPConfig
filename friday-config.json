@@ -7,7 +7,7 @@
     {
       "key": "welcome2",
       "title": "Welcome to Friday🥳",
-      "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click",
+      "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click!",
       "cta_text": "Got it",
       "cta_url": ""
     }
@@ -31,15 +31,15 @@
     }
   ],
   "updates": {
-    "1.0": {
+    "1.1": {
       "title": "Update V1.1",
       "description": "Added Lots of new features",
       "features": [
-        "Added support to select JIRA Work Category & Sub Category ",
-        "Added Section to View and update JIRA status"
+        "Added Notes Section, now save your notes locally",
+        "Added QR Code Generator Feature"
       ],
       "improvements": [
-        "Improved Google meet ticket creation process"
+        "Fixed bugs in JIRA creation"
       ],
       "cta_text": "Update to latest version",
       "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/696453191/CAPP-+Chrome+Extension"
