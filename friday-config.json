@@ -10,20 +10,6 @@
       "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click!",
       "cta_text": "Got it",
       "cta_url": ""
-    },
-     {
-      "key": "qrcode",
-      "title": "In version 1.1",
-      "description": "Now you can create and save QR codes, add notes to each QR code, and export or import your entire QR code history easily.",
-      "cta_text": "Got it",
-      "cta_url": ""
-    },
-     {
-      "key": "notes",
-      "title": "In version 1.1",
-      "description": "Now you can create and save Notes directly in the Friday app, save your branches, important link or even Tokens. Everything remains locally saved!",
-      "cta_text": "Got it",
-      "cta_url": ""
     }
   ],
   "epic_presets": [
