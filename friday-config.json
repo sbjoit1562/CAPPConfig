@@ -28,6 +28,22 @@
         "miscellaneous_features": "CAPP-1814",
         "incidents_crashes": "CAPP-1815"
       }
+    },
+     {
+      "id": "november-2025",
+      "name": "November 2025",
+      "description": "Default EPICs for November 2025 sprint",
+      "valid_from": "2025-11-01",
+      "valid_to": "2025-11-30",
+      "epics": {
+        "meetings": "CAPP-2942",
+        "engineering_excellence": "NA",
+        "incidents_prod_bugs": "CAPP-2948",
+        "operational_excellence": "NA",
+        "support_collaboration": "CAPP-2946",
+        "miscellaneous_features": "NA",
+        "incidents_crashes": "NA"
+      }
     }
   ],
   "updates": {
