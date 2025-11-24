@@ -37,12 +37,12 @@
       "valid_to": "2025-11-30",
       "epics": {
         "meetings": "CAPP-2942",
-        "engineering_excellence": "NA",
+        "engineering_excellence": "CAPP-3557",
         "incidents_prod_bugs": "CAPP-2948",
         "operational_excellence": "CAPP-3745",
         "support_collaboration": "CAPP-2946",
         "miscellaneous_features": "NA",
-        "incidents_crashes": "NA"
+        "incidents_crashes": "CAPP-3945"
       }
     }
   ],
