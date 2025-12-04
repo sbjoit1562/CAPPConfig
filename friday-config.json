@@ -10,6 +10,13 @@
       "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click!",
       "cta_text": "Got it",
       "cta_url": ""
+    },
+     {
+      "key": "decemberEpic",
+      "title": "December Epic are now available😎",
+      "description": "Please select December EPIC from JIRA setting",
+      "cta_text": "Got it",
+      "cta_url": ""
     }
   ],
   "epic_presets": [
@@ -43,6 +50,22 @@
         "support_collaboration": "CAPP-2946",
         "miscellaneous_features": "NA",
         "incidents_crashes": "CAPP-3945"
+      }
+    },
+      {
+      "id": "december-2025",
+      "name": "December 2025",
+      "description": "Default EPICs for December 2025 sprint",
+      "valid_from": "2025-12-01",
+      "valid_to": "2025-12-31",
+      "epics": {
+        "meetings": "CAPP-4556",
+        "engineering_excellence": "CAPP-4501",
+        "incidents_prod_bugs": "CAPP-4503",
+        "operational_excellence": "CAPP-4499",
+        "support_collaboration": "CAPP-4577",
+        "miscellaneous_features": "CAPP-4551",
+        "incidents_crashes": "NA"
       }
     }
   ],
