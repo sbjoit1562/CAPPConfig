@@ -67,6 +67,22 @@
         "miscellaneous_features": "CAPP-4551",
         "incidents_crashes": "NA"
       }
+    },
+    {
+      "id": "january-2026",
+      "name": "January 2025",
+      "description": "Default EPICs for January 2026 sprint",
+      "valid_from": "2026-01-01",
+      "valid_to": "2026-01-31",
+      "epics": {
+        "meetings": "CAPP-5923",
+        "engineering_excellence": "CAPP-5919",
+        "incidents_prod_bugs": "CAPP-5932",
+        "operational_excellence": "CAPP-5916",
+        "support_collaboration": "CAPP-5921",
+        "miscellaneous_features": "CAPP-5371",
+        "incidents_crashes": "NA"
+      }
     }
   ],
   "updates": {
