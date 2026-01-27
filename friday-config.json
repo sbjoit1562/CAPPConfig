@@ -11,7 +11,14 @@
       "cta_text": "Got it",
       "cta_url": ""
     },
-     {
+    {
+      "key": "newUpdateComingSoon",
+      "title": "New Update Coming Soon🥳",
+      "description": "Due to JIRA migration to Cloud, Please expect a New Friday update shortly",
+      "cta_text": "Got it",
+      "cta_url": ""
+    },
+    {
       "key": "januaryEpic",
       "title": "January Epic are now available😎",
       "description": "Please select January EPIC from JIRA setting",
@@ -36,7 +43,7 @@
         "incidents_crashes": "CAPP-1815"
       }
     },
-     {
+    {
       "id": "november-2025",
       "name": "November 2025",
       "description": "Default EPICs for November 2025 sprint",
@@ -52,7 +59,7 @@
         "incidents_crashes": "CAPP-3945"
       }
     },
-      {
+    {
       "id": "december-2025",
       "name": "December 2025",
       "description": "Default EPICs for December 2025 sprint",
