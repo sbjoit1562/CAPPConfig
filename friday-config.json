@@ -109,7 +109,7 @@
   },
   "categories": [
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11919",
+      "value": "11919",
       "text": "New Feature Development",
       "subCategories": [
         {
@@ -117,169 +117,169 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11929",
+          "value": "11929",
           "text": "Auth"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11930",
+          "value": "11930",
           "text": "Mandate"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11931",
+          "value": "11931",
           "text": "Camera Scanner"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11932",
+          "value": "11932",
           "text": "Chat"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11933",
+          "value": "11933",
           "text": "Common H5/Web"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11934",
+          "value": "11934",
           "text": "COMS"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11935",
+          "value": "11935",
           "text": "Network Layer"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11936",
+          "value": "11936",
           "text": "Utility"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11937",
+          "value": "11937",
           "text": "Notification"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11938",
+          "value": "11938",
           "text": "Signals"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11939",
+          "value": "11939",
           "text": "Hawkeye"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11940",
+          "value": "11940",
           "text": "Phoenix SDK"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11941",
+          "value": "11941",
           "text": "Jarvis"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11942",
+          "value": "11942",
           "text": "Integrity"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11943",
+          "value": "11943",
           "text": "Home Storefront"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11944",
+          "value": "11944",
           "text": "Pods Design"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11945",
+          "value": "11945",
           "text": "Discovery"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11946",
+          "value": "11946",
           "text": "Passbook"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11947",
+          "value": "11947",
           "text": "EAS"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11948",
+          "value": "11948",
           "text": "Post Payment Screen"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11949",
+          "value": "11949",
           "text": "Onboarding"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11950",
+          "value": "11950",
           "text": "Money Trasnfer"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11951",
+          "value": "11951",
           "text": "Wallet"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11952",
+          "value": "11952",
           "text": "Referral"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11953",
+          "value": "11953",
           "text": "Paytm-Web"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11954",
+          "value": "11954",
           "text": "Shopapp"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11955",
+          "value": "11955",
           "text": "IR"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11956",
+          "value": "11956",
           "text": "Foundation"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11957",
+          "value": "11957",
           "text": "PFM"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11958",
+          "value": "11958",
           "text": "Pulse"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11959",
+          "value": "11959",
           "text": "SEO"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11960",
+          "value": "11960",
           "text": "Web Panels"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11961",
+          "value": "11961",
           "text": "Cashback"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11962",
+          "value": "11962",
           "text": "Growth"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11963",
+          "value": "11963",
           "text": "H5-SDK"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11964",
+          "value": "11964",
           "text": "Settings"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11965",
+          "value": "11965",
           "text": "Myorders"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11966",
+          "value": "11966",
           "text": "Search"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11967",
+          "value": "11967",
           "text": "Paytm First"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11968",
+          "value": "11968",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11920",
+      "value": "11920",
       "text": "Feature Enhancements",
       "subCategories": [
         {
@@ -287,173 +287,173 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11969",
+          "value": "11969",
           "text": "Auth"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11970",
+          "value": "11970",
           "text": "Mandate"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11971",
+          "value": "11971",
           "text": "Camera Scanner"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11972",
+          "value": "11972",
           "text": "Chat"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11973",
+          "value": "11973",
           "text": "Common H5/Web"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11974",
+          "value": "11974",
           "text": "COMS"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11975",
+          "value": "11975",
           "text": "Network Layer"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11976",
+          "value": "11976",
           "text": "Utility"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11977",
+          "value": "11977",
           "text": "Notification"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11978",
+          "value": "11978",
           "text": "Signals"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11979",
+          "value": "11979",
           "text": "Hawkeye"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11980",
+          "value": "11980",
           "text": "Phoenix SDK"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11981",
+          "value": "11981",
           "text": "Jarvis"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11982",
+          "value": "11982",
           "text": "Integrity"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11983",
+          "value": "11983",
           "text": "Home"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11984",
+          "value": "11984",
           "text": "Storefront"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11985",
+          "value": "11985",
           "text": "Pods Design"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11986",
+          "value": "11986",
           "text": "Discovery"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11987",
+          "value": "11987",
           "text": "Passbook"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11988",
+          "value": "11988",
           "text": "EAS"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11989",
+          "value": "11989",
           "text": "Post Payment Screen"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11990",
+          "value": "11990",
           "text": "Onboarding"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11991",
+          "value": "11991",
           "text": "Money Trasnfer"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11992",
+          "value": "11992",
           "text": "Wallet"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11993",
+          "value": "11993",
           "text": "Referral"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11994",
+          "value": "11994",
           "text": "Paytm-Web"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11995",
+          "value": "11995",
           "text": "Shopapp"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11996",
+          "value": "11996",
           "text": "IR"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11997",
+          "value": "11997",
           "text": "Foundation"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11998",
+          "value": "11998",
           "text": "PFM"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11999",
+          "value": "11999",
           "text": "Pulse"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12000",
+          "value": "12000",
           "text": "SEO"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12001",
+          "value": "12001",
           "text": "Web Panels"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12002",
+          "value": "12002",
           "text": "Cashback"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12003",
+          "value": "12003",
           "text": "Growth"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12004",
+          "value": "12004",
           "text": "H5-SDK"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12005",
+          "value": "12005",
           "text": "Settings"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12006",
+          "value": "12006",
           "text": "Myorders"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12007",
+          "value": "12007",
           "text": "Search"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12008",
+          "value": "12008",
           "text": "Paytm First"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12009",
+          "value": "12009",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11921",
+      "value": "11921",
       "text": "Operational Excellence",
       "subCategories": [
         {
@@ -461,65 +461,65 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12010",
+          "value": "12010",
           "text": "Production Bugs"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12011",
+          "value": "12011",
           "text": "Environment Issues"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12012",
+          "value": "12012",
           "text": "Security & Compliance"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12013",
+          "value": "12013",
           "text": "Vendor discussions"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12014",
+          "value": "12014",
           "text": "Infra Scaling"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12015",
+          "value": "12015",
           "text": "Stability and Cost Support"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12016",
+          "value": "12016",
           "text": "Ad Hoc Tasks"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12017",
+          "value": "12017",
           "text": "Product and Business Requests"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12018",
+          "value": "12018",
           "text": "Alerting and Monitorting"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12019",
+          "value": "12019",
           "text": "Performance Optimization"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12020",
+          "value": "12020",
           "text": "Scalability Enhancements"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12021",
+          "value": "12021",
           "text": "PR Review"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12022",
+          "value": "12022",
           "text": "Others"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12023",
+          "value": "12023",
           "text": "Deployment"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11922",
+      "value": "11922",
       "text": "Engineering Excellence",
       "subCategories": [
         {
@@ -527,41 +527,41 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12024",
+          "value": "12024",
           "text": "Code Refactoring"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12025",
+          "value": "12025",
           "text": "Test Automation (for existing code)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12026",
+          "value": "12026",
           "text": "Library/Framework Upgrades (outdated dependencies, security patches)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12027",
+          "value": "12027",
           "text": "Architecture Modernization (breaking apart monoliths, modularization, microservices transition)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12028",
+          "value": "12028",
           "text": "Data Quality & Pipeline Fixes (schema cleanups, deduplication, legacy data migrations)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12029",
+          "value": "12029",
           "text": "Security Hardening (tech debt side, not KTLO incidents)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12030",
+          "value": "12030",
           "text": "Deprecated Services Cleanup (removing old code paths, unused APIs)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12031",
+          "value": "12031",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11923",
+      "value": "11923",
       "text": "Automation & Tooling (Reducing Toil)",
       "subCategories": [
         {
@@ -569,37 +569,37 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12032",
+          "value": "12032",
           "text": "CI/CD Improvements"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12033",
+          "value": "12033",
           "text": "Monitoring / Observability Tooling"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12034",
+          "value": "12034",
           "text": "Internal Developer Tools (dashboards, CLIs, scripts)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12035",
+          "value": "12035",
           "text": "Release Automation (deployment, rollback tooling)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12036",
+          "value": "12036",
           "text": "Infra as Code Enhancements"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12037",
+          "value": "12037",
           "text": "Cost Automation Tools (automated instance scaling, idle job cleanup)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12038",
+          "value": "12038",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11924",
+      "value": "11924",
       "text": "Support & Cross-Team Collaboration",
       "subCategories": [
         {
@@ -607,29 +607,29 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12039",
+          "value": "12039",
           "text": "Customer Support Escalations"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12040",
+          "value": "12040",
           "text": "Cross-Team Project Support (helping other squads)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12041",
+          "value": "12041",
           "text": "Documentation & Knowledge Sharing"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12042",
+          "value": "12042",
           "text": "Onboarding / Mentorship Support"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12043",
+          "value": "12043",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11925",
+      "value": "11925",
       "text": "Research / POC",
       "subCategories": [
         {
@@ -637,29 +637,29 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12044",
+          "value": "12044",
           "text": "Tech Evaluation (new framework/tool)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12045",
+          "value": "12045",
           "text": "Design Spikes (exploring architectural approaches)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12046",
+          "value": "12046",
           "text": "Prototype Development (throwaway code)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12047",
+          "value": "12047",
           "text": "Benchmarking & Performance Tests"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12048",
+          "value": "12048",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11926",
+      "value": "11926",
       "text": "Meetings",
       "subCategories": [
         {
@@ -667,41 +667,41 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12049",
+          "value": "12049",
           "text": "1:1s & Mentorship"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12050",
+          "value": "12050",
           "text": "Daily Standup"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12051",
+          "value": "12051",
           "text": "Design Reviews"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12052",
+          "value": "12052",
           "text": "Hiring & Interviews"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12053",
+          "value": "12053",
           "text": "Others"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12054",
+          "value": "12054",
           "text": "Requirement Grooming"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12055",
+          "value": "12055",
           "text": "Sprint/Quarterly Planning"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12056",
+          "value": "12056",
           "text": "Training & Onboarding"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11927",
+      "value": "11927",
       "text": "Cost Optimization",
       "subCategories": [
         {
@@ -709,33 +709,33 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12057",
+          "value": "12057",
           "text": "Infra Rightsizing"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12058",
+          "value": "12058",
           "text": "Storage Optimization"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12059",
+          "value": "12059",
           "text": "Query/Job Cost Reduction (e.g., Snowflake, BigQuery)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12060",
+          "value": "12060",
           "text": "License Rationalization (tools, SaaS)"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12061",
+          "value": "12061",
           "text": "Reserved/Spot Instance Usage"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12062",
+          "value": "12062",
           "text": "Others"
         }
       ]
     },
     {
-      "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/11928",
+      "value": "11928",
       "text": "Others",
       "subCategories": [
         {
@@ -743,7 +743,7 @@
           "text": "None"
         },
         {
-          "value": "ari:cloud:jira:5bf3c42b-aa31-4c9c-98ac-aa7eb022d72a:issue-field-option/activation/9e77bd9b-7341-42f3-a60a-dc715c11b404/customfield_10293/12063",
+          "value": "12063",
           "text": "Others"
         }
       ]
