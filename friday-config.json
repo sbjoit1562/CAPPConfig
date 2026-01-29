@@ -11,13 +11,7 @@
       "cta_text": "Got it",
       "cta_url": ""
     },
-    {
-      "key": "newUpdateComingSoon",
-      "title": "New Update Coming Soon🥳",
-      "description": "Due to JIRA migration to Cloud, Please expect a New Friday update shortly",
-      "cta_text": "Got it",
-      "cta_url": ""
-    },
+   
     {
       "key": "januaryEpic",
       "title": "January Epic are now available😎",
