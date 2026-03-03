@@ -18,6 +18,13 @@
       "description": "Please select February EPIC from JIRA setting",
       "cta_text": "Got it",
       "cta_url": ""
+    },
+    {
+      "key": "marchEpic",
+      "title": "March Epic are now available😎",
+      "description": "Please select March EPIC from JIRA setting",
+      "cta_text": "Got it",
+      "cta_url": ""
     }
   ],
   "epic_presets": [
@@ -96,6 +103,22 @@
         "engineering_excellence": "CAPP-7210",
         "incidents_prod_bugs": "CAPP-7218",
         "operational_excellence": "CAPP-7212",
+        "support_collaboration": "CAPP-7214",
+        "miscellaneous_features": "CAPP-6250",
+        "incidents_crashes": "NA"
+      }
+    },
+    {
+      "id": "march-2026",
+      "name": "March 2026",
+      "description": "Default EPICs for March 2026 sprint",
+      "valid_from": "2026-03-01",
+      "valid_to": "2026-03-31",
+      "epics": {
+        "meetings": "CAPP-8128",
+        "engineering_excellence": "CAPP-8122",
+        "incidents_prod_bugs": "CAPP-8130",
+        "operational_excellence": "CAPP-8124",
         "support_collaboration": "CAPP-7214",
         "miscellaneous_features": "CAPP-6250",
         "incidents_crashes": "NA"
