@@ -1,0 +1,194 @@
+{
+  "show_bottom_assistant": true,
+  "promotion_auto_scroll_interval_seconds": 5,
+  "top_section_items": [
+    {
+      "id": "1",
+      "name": "Deals",
+      "icon": "sell",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "name": "New",
+      "icon": "new_releases",
+      "url": "https://www.brucha.coffee/new"
+    },
+    {
+      "id": "3",
+      "name": "Desert",
+      "icon": "cake",
+      "url": "https://www.brucha.coffee/deserts"
+    },
+    {
+      "id": "4",
+      "name": "Location",
+      "icon": "location_on",
+      "url": "https://www.brucha.coffee/deserts"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "1",
+      "title": "Flat 10% off on your first order!",
+      "subtitle": "Welcome Offer",
+      "code": "BRUCHA10",
+      "badge": "Dine-in only",
+      "cta": "Apply Now",
+      "ctaUrl": "",
+      "isActive": true
+    },
+    {
+      "id": "2",
+      "title": "Buy 2 Get 1 Free on all Lattes",
+      "subtitle": "Happy Hour",
+      "code": "LATTE3FOR2",
+      "badge": "3-5 PM",
+      "cta": "Apply Now",
+      "ctaUrl": "",
+      "isActive": true
+    },
+    {
+      "id": "3",
+      "title": "Free Pastry with any Cold Brew",
+      "subtitle": "Summer Special",
+      "code": "COLDBREW",
+      "badge": "Limited time",
+      "cta": "Apply Now",
+      "ctaUrl": "",
+      "isActive": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Espresso",
+      "icon": "coffee"
+    },
+    {
+      "id": "2",
+      "name": "Cold Brew",
+      "icon": "ac_unit"
+    },
+    {
+      "id": "3",
+      "name": "Pourover",
+      "icon": "water_drop"
+    },
+    {
+      "id": "4",
+      "name": "Latte",
+      "icon": "local_cafe"
+    }
+  ],
+  "menu_items": [
+    {
+      "id": "1",
+      "name": "Double Espresso",
+      "description": "Rich & Full Body",
+      "price": 3.50,
+      "imageUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&h=400&fit=crop",
+      "category": "Espresso",
+      "tags": ["hot", "strong", "classic"]
+    },
+    {
+      "id": "2",
+      "name": "Caffè Latte",
+      "description": "Oat or Whole Milk",
+      "price": 4.75,
+      "imageUrl": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400&h=400&fit=crop",
+      "category": "Latte",
+      "tags": ["hot", "milk", "smooth"]
+    },
+    {
+      "id": "3",
+      "name": "Cold Brew",
+      "description": "12-hour Steeped",
+      "price": 5.25,
+      "imageUrl": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=400&fit=crop",
+      "category": "Cold Brew",
+      "tags": ["cold", "smooth", "refreshing"]
+    },
+    {
+      "id": "4",
+      "name": "Cappuccino",
+      "description": "Perfect Foam",
+      "price": 4.25,
+      "imageUrl": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=400&fit=crop",
+      "category": "Espresso",
+      "tags": ["hot", "foam", "classic"]
+    },
+    {
+      "id": "5",
+      "name": "Flat White",
+      "description": "Velvety Microfoam",
+      "price": 4.50,
+      "imageUrl": "https://images.unsplash.com/photo-1545665225-b23b99e4d45e?w=400&h=400&fit=crop",
+      "category": "Latte",
+      "tags": ["hot", "creamy", "smooth"]
+    },
+    {
+      "id": "6",
+      "name": "Nitro Cold Brew",
+      "description": "Nitrogen Infused",
+      "price": 5.75,
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=400&fit=crop",
+      "category": "Cold Brew",
+      "tags": ["cold", "smooth", "creamy"]
+    },
+    {
+      "id": "7",
+      "name": "Americano",
+      "description": "Bold & Simple",
+      "price": 3.25,
+      "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop",
+      "category": "Espresso",
+      "tags": ["hot", "strong", "simple"]
+    },
+    {
+      "id": "8",
+      "name": "Mocha Latte",
+      "description": "Chocolate & Espresso",
+      "price": 5.25,
+      "imageUrl": "https://images.unsplash.com/photo-1578374173705-0f5e2cb4e0e5?w=400&h=400&fit=crop",
+      "category": "Latte",
+      "tags": ["hot", "chocolate", "sweet"]
+    },
+    {
+      "id": "9",
+      "name": "Iced Latte",
+      "description": "Chilled Perfection",
+      "price": 4.95,
+      "imageUrl": "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?w=400&h=400&fit=crop",
+      "category": "Cold Brew",
+      "tags": ["cold", "milk", "refreshing"]
+    },
+    {
+      "id": "10",
+      "name": "Cortado",
+      "description": "Equal Parts Espresso & Milk",
+      "price": 3.75,
+      "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=400&fit=crop",
+      "category": "Espresso",
+      "tags": ["hot", "balanced", "smooth"]
+    },
+    {
+      "id": "11",
+      "name": "Vanilla Latte",
+      "description": "Sweet & Creamy",
+      "price": 5.00,
+      "imageUrl": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=400&h=400&fit=crop",
+      "category": "Latte",
+      "tags": ["hot", "vanilla", "sweet"]
+    },
+    {
+      "id": "12",
+      "name": "Pour Over",
+      "description": "Single Origin",
+      "price": 4.50,
+      "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+      "category": "Pourover",
+      "tags": ["hot", "artisan", "smooth"]
+    }
+  ]
+}
