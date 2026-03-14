@@ -1,6 +1,9 @@
 {
   "show_bottom_assistant": true,
   "promotion_auto_scroll_interval_seconds": 5,
+  "privacy_url": "https://www.brucha.coffee/privacy",
+  "terms_url": "https://www.brucha.coffee/terms",
+  "about_url": "https://www.brucha.coffee/about",
   "top_section_items": [
     {
       "id": "1",
