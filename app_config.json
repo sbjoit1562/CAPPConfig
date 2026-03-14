@@ -89,7 +89,7 @@
       "id": "1",
       "name": "Double Espresso",
       "description": "Rich & Full Body",
-      "price": 3.50,
+      "price": 80,
       "imageUrl": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400&h=400&fit=crop",
       "category": "Espresso",
       "tags": ["hot", "strong", "classic"]
@@ -98,7 +98,7 @@
       "id": "2",
       "name": "Caffè Latte",
       "description": "Oat or Whole Milk",
-      "price": 4.75,
+      "price": 40,
       "imageUrl": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?w=400&h=400&fit=crop",
       "category": "Latte",
       "tags": ["hot", "milk", "smooth"]
