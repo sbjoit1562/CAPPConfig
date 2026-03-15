@@ -21,7 +21,7 @@
       "id": "3",
       "name": "Desserts",
       "icon": "cake",
-      "url": "https://www.brucha.coffee/desserts"
+      "url": "brucha://filter/Desserts"
     },
     {
       "id": "4",
@@ -33,22 +33,20 @@
   "promotions": [
     {
       "id": "1",
-      "title": "Flat 10% off on your first order!",
-      "subtitle": "Welcome Offer",
+      "title": "Flat 10% off on your every order!",
+      "subtitle": "Dine-In Offer",
       "code": "BRUCHA10",
       "badge": "Dine-in only",
-      "cta": "Apply Now",
+      "cta": "Applied",
       "ctaUrl": "",
       "isActive": true
     },
     {
       "id": "2",
-      "title": "Buy 2 Get 1 Free on all Lattes",
-      "subtitle": "Happy Hour",
-      "code": "LATTE3FOR2",
-      "badge": "3-5 PM",
-      "cta": "Apply Now",
-      "ctaUrl": "",
+      "title": "Order using CHATGPT Assistant",
+      "subtitle": "Brucha AI Assistant",
+      "cta": "Try Now",
+      "ctaUrl": "brucha://assistant",
       "isActive": true
     },
     {
