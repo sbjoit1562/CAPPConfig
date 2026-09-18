@@ -10,28 +10,6 @@
       "description": "Check your TimeLine View, Pin Jiras, Update Worklog in a click!",
       "cta_text": "Got it",
       "cta_url": ""
-    },
-   
-    {
-      "key": "februaryEpic",
-      "title": "February Epic are now available😎",
-      "description": "Please select February EPIC from JIRA setting",
-      "cta_text": "Got it",
-      "cta_url": ""
-    },
-    {
-      "key": "marchEpic",
-      "title": "March Epic are now available😎",
-      "description": "Please select March EPIC from JIRA setting",
-      "cta_text": "Got it",
-      "cta_url": ""
-    },
-    {
-      "key": "aprilEpic",
-      "title": "April Epic are now available😎",
-      "description": "Please select April EPIC from JIRA setting",
-      "cta_text": "Got it",
-      "cta_url": ""
     }
   ],
   "epic_presets": [
