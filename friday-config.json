@@ -149,18 +149,18 @@
     }
   ],
   "updates": {
-    "1.1": {
-      "title": "Update V1.1",
-      "description": "Added Lots of new features",
+    "1.4": {
+      "title": "Update V1.4",
+      "description": "Made Dashboard Faster",
       "features": [
-        "Added Notes Section, now save your notes locally",
-        "Added QR Code Generator Feature"
+        "Made Dashboard Faster",
+        "Access ARK directly from here"
       ],
       "improvements": [
-        "Fixed bugs in JIRA creation"
+        "Fixed bugs"
       ],
       "cta_text": "Update to latest version",
-      "cta_url": "https://wiki.mypaytm.com/spaces/CA/pages/710576694/Friday+-+MacosApp"
+      "cta_url": "https://mypaytm.atlassian.net/wiki/spaces/CA/pages/142268509/Friday+-+MacosApp"
     }
   },
   "categories": [
