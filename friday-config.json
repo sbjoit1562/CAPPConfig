@@ -132,7 +132,8 @@
       "description": "Made Dashboard Faster",
       "features": [
         "Made Dashboard Faster",
-        "Access ARK directly from here"
+        "Access ARK directly from here",
+        "No more manual friday app updates, moving forward it updates automatically in background"
       ],
       "improvements": [
         "Fixed bugs"
